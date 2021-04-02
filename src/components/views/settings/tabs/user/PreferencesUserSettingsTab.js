@@ -41,23 +41,26 @@ export default class PreferencesUserSettingsTab extends React.Component {
 
     static TIMELINE_SETTINGS = [
         'showTypingNotifications',
-        'autoplayGifsAndVideos',
-        'urlPreviewsEnabled',
-        'TextualBody.enableBigEmoji',
         'showReadReceipts',
-        'showTwelveHourTimestamps',
-        'alwaysShowTimestamps',
-        'showRedactions',
-        'enableSyntaxHighlightLanguageDetection',
-        'expandCodeByDefault',
-        'scrollToBottomOnMessageSent',
-        'showCodeLineNumbers',
-        'showJoinLeaves',
         'showAvatarChanges',
         'showDisplaynameChanges',
+        'showRedactions',
+        'showJoinLeaves',
+
+        'urlPreviewsEnabled',
         'showImages',
+        'autoplayGifsAndVideos',
+        'TextualBody.enableBigEmoji',
         'showChatEffects',
+
+        'showCodeLineNumbers',
+        'expandCodeByDefault',
+        'enableSyntaxHighlightLanguageDetection',
+
         'Pill.shouldShowPillAvatar',
+        'scrollToBottomOnMessageSent',
+        'alwaysShowTimestamps',
+        'showTwelveHourTimestamps', 
         'ctrlFForSearch',
     ];
 
